@@ -6,7 +6,7 @@
   
 ***
 
-  <h1><a href="xingzhewujiang.md">行者无疆</a></h1>
+  <h1><a href="_posts/xingzhewujiang.md">行者无疆</a></h1>
   
 ***
 
