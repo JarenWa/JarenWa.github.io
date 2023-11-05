@@ -2,15 +2,13 @@
 <!-- 固定在顶部的文本 -->
 <div style="position: fixed; top: 0; left: 0; width: 100%; background-color: #f8f8f8; text-align: center; padding: 10px 0;">
    <h1>JarenWa.github.io</h1>
-    <br>
   <hr style="border: none; height: 1px; background-color: gray;">
 </div>
-
+<br>
 
 <div style="width: 100%; margin: auto;">
-  
-<table style="margin-left: auto; margin-right: auto;">
-  <tr>
+<table style="margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
+  <tr>  
     <td><img src="/images/zhuye-2.jpg" alt="Image 1" style="width:100%;"></td>
     <td><img src="/images/zhuye-2.jpg" alt="Image 2" style="width:100%;"></td>
     <td><img src="/images/zhuye-2.jpg" alt="Image 3" style="width:100%;"></td>
@@ -21,8 +19,6 @@
     <td> <h1>随笔闲谈</h1></td>
   </tr>
 </table>
-
-
 
 </div>
 
