@@ -1,10 +1,12 @@
 [^_^]: 哈哈我是注释，不会在浏览器中显示。
 <!-- 固定在顶部的文本 -->
-<div style="position: fixed; top: 0; left: 0; width: 100%; background-color: #f8f8f8; text-align: center; padding: 10px 0;">
-   <h1>JarenWa.github.io</h1>
+<div style="position: fixed; top: 0; left: 0; width: 100%; background-color: #f8f8f8; text-align: center; padding: 0px 0;">
+   <div style=" padding: 10px 0px 0px;">
+    <h1>JarenWa.github.io</h1>
+   </div>
   <hr style="border: none; height: 1px; background-color: gray;">
 </div>
-<br>
+<br><br><br><br>
 
 <div style="width: 100%; margin: auto;">
 <table style="margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle;">
