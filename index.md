@@ -1,6 +1,6 @@
 [^_^]: 哈哈我是注释，不会在浏览器中显示。
 
-<div style="width: 80%; margin: auto;">
+<div style="width: 100%; margin: auto;">
   
 <table style="margin-left: auto; margin-right: auto;">
   <tr>
@@ -20,8 +20,8 @@
 </div>
 
 <!-- 固定在底部的文本 -->
-<div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #f8f8f8; text-align: center; padding: 10px 0;">
-  <hr style="border: none; height: 2px; background-color: black;">
+<div style="position: fixed; bottom: 0; width: 100%; margin: auto; background-color: #f8f8f8; text-align: center; padding: 10px 0;">
+  <hr style="border: none; height: 0.5px; background-color: black;">
    <div align="center">
       Email:  <em>jarenw@163.com</em>
     </div>
