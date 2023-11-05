@@ -9,6 +9,7 @@ description: >- # 这是您网站的描述
 markdown: kramdown
 # theme: minima # 默认主题有些问题（字体等），取消使用
 # remote_theme: daattali/beautiful-jekyll # 在线支持 太慢
+theme: Midnight
 plugins:
   - jekyll-feed
 
