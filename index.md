@@ -1,3 +1,4 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 [^_^]: 哈哈我是注释，不会在浏览器中显示。
 <!-- 固定在顶部的文本 -->
 <div style="position: fixed; top: 0; left: 0; width: 100%; background-color: #f8f8f8; text-align: center; padding: 0px 0;">
