@@ -17,15 +17,14 @@
 </table>
 </div>
 
-<div style="position: fixed; bottom: 3; width: 100%; text-align: center;">
-  <div align="center">
-    Email:  <em>jarenw@163.com</em>
+<div style="text-align: center; margin-left: auto; margin-right: auto; padding-left: 0; padding-right: 0;">
+  <div style="position: fixed; bottom: 0; width: 100%; text-align: center;">
+    <hr style="width: 100%;">
+    <div align="center">
+      Email:  <em>jarenw@163.com</em>
+    </div>
     
   </div>
-
-  <hr>
-
 </div>
-
 
 
