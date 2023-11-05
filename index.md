@@ -1,6 +1,7 @@
 [^_^]: 哈哈我是注释，不会在浏览器中显示。
 
-<table style="width:100%; margin-left:auto; margin-right:auto; border-collapse: collapse; border: none; background-color: transparent; text-align: center; vertical-align: middle;">
+<div style="overflow-x:auto;">
+  <table style="width:100%; margin-left:auto; margin-right:auto; border-collapse: collapse; border: none; background-color: transparent; text-align: center; vertical-align: middle;">
   <tr>
     <td><img src="/images/zhuye-2.jpg" alt="Image 1" style="width:100%;"></td>
     <td><img src="/images/zhuye-2.jpg" alt="Image 2" style="width:100%;"></td>
@@ -12,5 +13,6 @@
     <td> <h1>随笔闲谈</h1></td>
   </tr>
 </table>
+</div>
 
 
