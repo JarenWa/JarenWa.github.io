@@ -6,7 +6,6 @@
   
 ***
 
-[行者无疆](_posts/xingzhewujiang.md)
   <h1><a href="pages/xingzhewujiang.md">行者无疆</a></h1>
   
 ***
