@@ -6,7 +6,7 @@
   
 ***
 
-  [<h1>行者无疆</h1>](xingzhewujiang.md)
+  <h1><a href="xingzhewujiang.md1">行者无疆</a></h1>
   
 ***
 
