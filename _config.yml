@@ -1,35 +1,47 @@
-theme: jekyll-theme-cayman
-encoding: utf-8
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-# SEO相关信息
-title: UMaize                               # 站的标题
-# description: A Jekyll Theme.                # 站的描述
-# keywords: moimo,thoughts,scripts,Python     # 站的关键词，（ASCII）逗号分隔
-# author: moimo233                            # 站的作者
+    {% seo %}
 
-# 这些不要动
-permalink: /posts/:year/:month/:day/:title.html
-kramdown:
-  auto_ids: true
-  input: GFM
-exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'cli.bat', 'dist.tar.gz']
+    <link rel="icon" href="https://avatars0.githubusercontent.com/u/1797320" type="image/x-icon" title="scottcgi">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-# 域名配置
-# baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
-# domainUrl: 'https://rain.moimo.me'
-# baseurl: ''
+  </head>
+  <body>
+    <div class="wrapper">
+      <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
+        <h1>{{ site.title | default: site.github.repository_name }}</h1> 
+        <p>{{ page.description | default: site.description }}</p>
+       
+        <ul>
+        {% for item in site.nav %}
+          {% if page.url == item.link %}
+            <li style="background-color:#069">
+              <a href="{{ item.link }}">
+                <strong>{{ item.name }}</strong>
+              </a>
+            </li>
+          {% else %}
+            <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+      </header>
+      <section>
 
-# 点击页面文字冒出特效,不需要请设置为false
-extClickEffect: true
+      {{ content }}
 
-# _includes/ext-adsense.html 里面修改为自己的配置
-extAdsense: false
-
-# _includes/ext-adsense.html 里面修改为自己的配置
-extMTA: false
-
-# 百度收录自动推送,不需要请设置为false
-extBaidu: true
-
-# 数学公式支持，比较影响加载速度,不需要请设置为false
-extMath: false
+      </section>
+    </div>
+    
+    <footer>
+      <p>{{ site.copyright | default: "copyright not found in _config.yml" }}</p>
+    </footer>
+  </body>
+</html>
