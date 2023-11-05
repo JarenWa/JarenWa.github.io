@@ -8,6 +8,7 @@ description: >- # 这是您网站的描述
 # Build settings
 markdown: kramdown
 # theme: minima # 默认主题有些问题（字体等），取消使用
+theme: Beautiful Jekyll
 plugins:
   - jekyll-feed
 
