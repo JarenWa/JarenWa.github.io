@@ -17,15 +17,13 @@
 
 <div style="text-align: center; margin-left: auto; margin-right: auto; padding-left: 0; padding-right: 0;">
   <div style="position: fixed; bottom: 0; width: 100%; text-align: center;">
-    <hr style="width: 100%;">
+    <hr style="border: 2px solid black;">
     <div align="center">
       Email:  <em>jarenw@163.com</em>
     </div>
-    
+    <br>
   </div>
 </div>
-
-\
 
 
 
