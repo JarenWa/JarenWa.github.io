@@ -1,4 +1,11 @@
 [^_^]: 哈哈我是注释，不会在浏览器中显示。
+<!-- 固定在顶部的文本 -->
+<div style="position: fixed; top: 0; left: 0; width: 100%; background-color: #f8f8f8; text-align: center; padding: 10px 0;">
+   <h1>JarenWa.github.io</h1>
+    <br>
+  <hr style="border: none; height: 1px; background-color: gray;">
+</div>
+
 
 <div style="width: 100%; margin: auto;">
   
@@ -20,9 +27,10 @@
 </div>
 
 <!-- 固定在底部的文本 -->
-<div style="position: fixed; bottom: 0; width: 100%; margin: auto; background-color: #f8f8f8; text-align: center; padding: 10px 0;">
-  <hr style="border: none; height: 0.5px; background-color: black;">
+<div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #f8f8f8; text-align: center; padding: 10px 0;">
+  <hr style="border: none; height: 1px; background-color: black;">
    <div align="center">
+     王杰的个人主页<br>
       Email:  <em>jarenw@163.com</em>
     </div>
     <br>
