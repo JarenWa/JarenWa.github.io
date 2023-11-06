@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+    <link rel="stylesheet" href="/.css/xtsb-style.css"> <!-- 这里链接你的CSS文件 -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>个人网站</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">首页</a></li>
+                    <li><a href="about.html">关于我</a></li>
+                    <li><a href="contact.html">联系方式</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="showcase">
+            <h1>欢迎来到我的个人网站</h1>
+            <p>这里有我的一些介绍，欢迎交流。</p>
+        </section>
+
+        <section id="newsletter">
+            <h1>订阅我的通讯</h1>
+            <form>
+                <input type="email" placeholder="输入邮箱...">
+                <button type="submit" class="button_1">订阅</button>
+            </form>
+        </section>
+
+        <section id="boxes">
+            <div class="box">
+                <h3>项目一</h3>
+                <p>这里是项目一的简介，你可以添加更多信息。</p>
+            </div>
+            <div class="box">
+                <h3>项目二</h3>
+                <p>这里是项目二的简介，你可以添加更多信息。</p>
+            </div>
+            <div class="box">
+                <h3>项目三</h3>
+                <p>这里是项目三的简介，你可以添加更多信息。</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>版权所有 &copy; 2023 你的名字</p>
+    </footer>
+</body>
+</html>
+
