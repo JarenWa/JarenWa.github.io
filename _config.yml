@@ -1,8 +1,8 @@
 # title: JarenWa.github.io
 email: jarenw@163.com
-description: >- # 这是您网站的描述
-  这是王杰的个人网站
-# baseurl: "" # the subpath of your site, e.g. /blog
+#description: >- # 这是您网站的描述
+  #这是王杰的个人网站
+baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Build settings
