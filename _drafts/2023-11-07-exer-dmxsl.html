@@ -1,23 +1,37 @@
 ---
 layout: post
-title: "exer-dmsxl"
+title: "代码随想录学习记录"
 date: 2023-11-07
 permalink: /tech/exer-dmsxl/
 ---
-<p style="font-size:20px;">目录</p>
-<a href ="#1"> 1 回溯算法 </a><br>
-<a href ="#2"> 2 贪心算法 </a><br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+</head>
+<body>
+    <h1>{{ page.title }}</h1>
+<p>Posted on {{ page.date | date_to_string }}</p>
+
+
+<p>目录</p>
+<a href ="#1"> 1 回溯算法 </a> <br>
+<a href ="#2"> 2 贪心算法 </a> <br>  
 
 <h1 id="1"> 1 回溯算法</h1>
 
-<h1 id ="2"> 2 贪心算法</h1>
 
-## 分发饼干
-<a href="https://leetcode.cn/problems/assign-cookies/description/">力扣</a>
-### 实现1（时间复杂度太高）
-对`s[]`进行升序排序<br>
+<h1 id ="2"> 2 贪心算法</h1>
+<h2>分发饼干</h2>
+<a>https://leetcode.cn/problems/assign-cookies/description/</a>
+
+<h3>实现1（时间复杂度太高）</h3>
+对 s[]`进行升序排序<br>
 遍历`g[]`，对于`g[i]`，将与`s[]`中的元素从小到大进行对比，判断能否获得饼干
-```
+<pre>
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
         int sum = 0;
@@ -44,14 +58,14 @@ class Solution {
         return sum;
     }
 }
-```
+</pre>
 
 ### 实现2
 实现1在判断过程中，使用了双层`for`循环，考虑优化。<br>
 实现1的排序算法时间复杂度$O(n^2)$也要优化，`Arrays.sort()`时间复杂度为$O(nlogn)$。<br>
 
 优先考虑饼干：
-```
+<pre>
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
         int sum = 0;
@@ -66,5 +80,7 @@ class Solution {
         return sum;
     }
 }
-```
-
+</pre>
+    
+</body>
+</html>
