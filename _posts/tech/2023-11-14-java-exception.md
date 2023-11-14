@@ -35,7 +35,9 @@ java.lang.Throwable:异常体系的根父类，分为Error和Exception<br>
                     |---- NumberFormatException
                     |---- InputMismatchException
                     |---- ArithmeticException
-<a href="https://www.runoob.com/manual/jdk11api/java.base/java/lang/Throwable.html">具体参考API</a><br>
+<br>
+<a href="https://www.runoob.com/manual/jdk11api/java.base/java/lang/Throwable.html" target="_blank">具体参考API</a><br>
+
 
 The Java Language Specification calls any exceptions that derives from the class `Error` or class `RuntimeException` an `unchecked` exception. All other exceptions are called `checked` exceptions.
 
