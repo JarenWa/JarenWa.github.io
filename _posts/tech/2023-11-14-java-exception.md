@@ -35,6 +35,8 @@ java.lang.Throwable:异常体系的根父类，分为Error和Exception<br>
                     |---- NumberFormatException
                     |---- InputMismatchException
                     |---- ArithmeticException
+
+
 <br>
 <a href="https://www.runoob.com/manual/jdk11api/java.base/java/lang/Throwable.html" target="_blank">具体参考API</a><br>
 
