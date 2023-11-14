@@ -10,10 +10,25 @@ permalink: /tech/exer-dmsxl/
 
 <h1 id="1"> 1 回溯算法</h1>
 
+> 递归函数的参数和返回值<br>
+确定终止条件<br>
+单层递归逻辑<br>
+## 组合
+<a href="https://leetcode.cn/problems/combinations/" target="_blank">力扣</a> <br>
+
+
+## 组合总和III
+<a href="https://leetcode.cn/problems/combination-sum-iii/" target="_blank">力扣</a> <br>
+### 实现1
+沿用前面的方法，数字1-9,找k个数字（不重复）的组合，求和等于n的才进入返回结果。
+
+
+
+
 <h1 id ="2"> 2 贪心算法</h1>
 
 ## 分发饼干
-<a href="https://leetcode.cn/problems/assign-cookies/description/">力扣</a>
+<a href="https://leetcode.cn/problems/assign-cookies/description/" target="_blank">力扣</a>
 ### 实现1（时间复杂度太高）
 对`s[]`进行升序排序<br>
 遍历`g[]`，对于`g[i]`，将与`s[]`中的元素从小到大进行对比，判断能否获得饼干
@@ -48,7 +63,7 @@ class Solution {
 
 ### 实现2
 实现1在判断过程中，使用了双层`for`循环，考虑优化。<br>
-实现1的排序算法时间复杂度$O(n^2)$也要优化，`Arrays.sort()`时间复杂度为$O(nlogn)$。<br>
+实现1的排序算法时间复杂度 <em>O(n<sup>2</sup>)</em> 也要优化，`Arrays.sort()`时间复杂度为 <em>O(nlogn) </em>。<br>
 
 优先考虑饼干：
 ```
