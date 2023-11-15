@@ -2,7 +2,7 @@
 layout: post
 title: "java-exception"
 date: 2023-11-14
-permalink: /tech/java-exception/
+permalink: /tech/javase/java-exception/
 ---
 
 <p style="font-size:20px;">目录</p>

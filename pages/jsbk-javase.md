@@ -6,4 +6,4 @@
 
 
 
-<h2><a href="{% post_url tech/2023-11-14-java-exception %}">Java-Exception</a></h2>
+<h2><a href="{% post_url tech/javase/2023-11-14-java-exception %}">Java-Exception</a></h2>
