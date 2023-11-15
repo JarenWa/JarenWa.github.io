@@ -4,6 +4,7 @@ title: "java-exception"
 date: 2023-11-14
 permalink: /tech/java-exception/
 ---
+
 <p style="font-size:20px;">目录</p>
 <a href ="#1"> 1 异常概述 </a><br>
 <a href ="#2"> 2 异常处理一 捕获异常 try-catch-finally </a><br>
