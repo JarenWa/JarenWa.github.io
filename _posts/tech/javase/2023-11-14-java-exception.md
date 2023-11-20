@@ -4,7 +4,7 @@ title: "java-exception"
 date: 2023-11-14
 permalink: /tech/javase/java-exception/
 ---
-
+<p style="font-size:20px;">Java-Exception</p>
 <p style="font-size:20px;">目录</p>
 <a href ="#1"> 1 异常概述 </a><br>
 <a href ="#2"> 2 异常处理一 捕获异常 try-catch-finally </a><br>
@@ -101,5 +101,23 @@ catch和finally语句是可选的，但try不能单独使用<br>
 ### final finally finalize
 没有联系
 
-<h1 id="3"> 3 异常处理二 throw + 异常类型</h1>
+<h1 id="3"> 3 异常处理二 throws + 异常类型</h1>
 把异常报给调用者
+
+格式
+```
+public static void method1() throws FileNotFoundException, IOException {
+        File file = new File("D:\\hello.txt");
+
+        FileInputStream fis = new FileInputStream(file); //可能报FileNotFoundException
+
+        int data = fis.read(); //可能报IOException
+        while (data != -1) {
+            System.out.print((char) data);
+            data = fis.read(); //可能报IOException
+        }
+
+        fis.close(); //可能报IOException
+    }
+```
+针对于编译时异常，运行时异常写不写都一样

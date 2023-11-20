@@ -4,16 +4,96 @@ title: "exer-dmsxl"
 date: 2023-11-07
 permalink: /tech/exer-dmsxl/
 ---
+<p style="font-size:20px;">代码随想录学习笔记</p>
 <p style="font-size:20px;">目录</p>
-<a href ="#1"> 1 回溯算法 </a><br>
-<a href ="#2"> 2 贪心算法 </a><br>
+<a href ="#e"> 二叉树 </a><br>
+<a href ="#1"> 回溯算法 </a><br>
+<a href ="#2"> 贪心算法 </a><br>
+
+<h1 id="e"> 二叉树</h1>
+
+## 1 二叉树理论基础
+```
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+```
+## 2 二叉树递归遍历
+二叉树前序遍历递归写法
+* 确定单层逻辑
+* 确定参数、返回值
+* 确定终止条件： 没写终止条件或者终止条件写的不对，通常会有栈溢出。操作系统也是用一个栈的结构来保存每一层递归的信息，如果递归没有终止，操作系统的内存栈必然就会溢出。
+```
+class Solution {
+    List<Integer> result = new ArrayList<>();
+    public List<Integer> preorderTraversal(TreeNode root) {
+        preorder(root);
+        return result;
+    
+    }
+    void preorder(TreeNode root){
+        if(root != null){
+            result.add(root.val);
+            preorder(root.left);
+            preorder(root.right);
+        }
+    }
+}
+```
+递归的实现就是：每一次递归调用都会把函数的局部变量、参数值和返回地址等压入调用栈中，然后递归返回的时候，从栈顶弹出上一次递归的各项参数，所以这就是递归为什么可以返回上一层位置的原因。
+
+那我们手动用栈，也可实现遍历。
+
+## 3 二叉树迭代遍历
+
+迭代遍历和递归不一样
+
+前中后序不能简单套用（访问的顺序和元素处理顺序不一致）
 
 
 
-<h1 id="1"> 1 回溯算法</h1>
+<h1 id="1"> 回溯算法</h1>
 递归函数的参数和返回值<br>
 确定终止条件<br>
 单层递归逻辑<br>
+
+## 1 回溯算法理论基础
+一种搜索方法。回溯是递归的副产品，只要有递归就会有回溯。
+
+回溯法，一般可以解决如下几种问题：
+
+* 组合问题：N个数里面按一定规则找出k个数的集合
+* 切割问题：一个字符串按一定规则有几种切割方式
+* 子集问题：一个N个数的集合里有多少符合条件的子集
+* 排列问题：N个数按一定规则全排列，有几种排列方式
+* 棋盘问题：N皇后，解数独等等
+
+```
+void backtracking(参数) {
+    if (终止条件) {
+        存放结果;
+        return;
+    }
+
+    for (选择：本层集合中元素（树中节点孩子的数量就是集合的大小）) {
+        处理节点;
+        backtracking(路径，选择列表); // 递归
+        回溯，撤销处理结果
+    }
+}
+```
 
 ## x 组合
 <a href="https://leetcode.cn/problems/combinations/" target="_blank">力扣</a> <br>
@@ -61,7 +141,7 @@ class Solution {
 
 
 
-<h1 id ="2"> 2 贪心算法</h1>
+<h1 id ="2"> 贪心算法</h1>
 
 ## 2 分发饼干
 <a href="https://leetcode.cn/problems/assign-cookies/description/" target="_blank">力扣</a>

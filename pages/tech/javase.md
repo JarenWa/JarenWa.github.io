@@ -9,3 +9,5 @@
 <p style="font-size:20px;">目录</p>
 
 <h2><a href="{% post_url tech/javase/2023-11-14-java-exception %}"> Java-Exception</a></h2>
+<br>
+<h2><a href="{% post_url tech/javase/2023-11-16-java-oop %}"> Java-OOP</a></h2>
