@@ -32,6 +32,28 @@ permalink: /tech/SSM/springframework/
 
 <h1 id="2"> 2 Spring IoC</h1>
 
+## 组件和组件管理
+组件：可以复用的java对象
+- 组件一定是对象
+- 对象不一定是组件
+
+Spring 充当组件管理
+
+组件可以完全交给Spring 框架进行管理，Spring框架替代了程序员原有的new对象和对象属性赋值动作等！
+- 组件对象实例化
+- 组件属性属性赋值
+- 组件对象之间引用
+- 组件对象存活周期管理
+- ......
+
+我们只需要编写元数据（配置文件）告知Spring 管理哪些类组件和他们的关系即可！
+- xml、java注解、java代码（类）
+
+## Spring IoC 容器
+### Spring IoC 容器接口
+
+### ApplicationContext 容器实现类
+
 
 <h1 id="3"> 3 Spring AOP</h1>
 
