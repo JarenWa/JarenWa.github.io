@@ -7,5 +7,7 @@
 <h2><a href="./tech/javase.html">JavaSE</a></h2>
 <br>
 <h2><a href="./tech/SSM.html">SSM</a></h2>
+<br>
+<h2><a href="./tech/blog.html">基于 Java 的个人博客系统搭建过程学习记录</a></h2>
 
 
