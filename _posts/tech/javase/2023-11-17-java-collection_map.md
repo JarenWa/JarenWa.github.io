@@ -9,7 +9,7 @@ permalink: /tech/javase/java-collection_map/
 <a href ="#1"> 1 集合框架概述  </a><br>
 <a href ="#2"> 2 Collection 接口及方法 </a><br>
 <a href ="#3"> 3 Iterator(迭代器)接口 </a><br>
-
+<a href ="#4"> 4 Map接口 </a><br>
  
  
 
@@ -57,6 +57,8 @@ Java 集合可分为 Collection 和 Map 两大体系：
 * Collection 接口与 Map 接口主要用于存储元素
 * Iterator，被称为迭代器接口，本身并不提供存储对象的能力，主要用于
 遍历 Collection 中的元素
+
+<h1 id="4">4 Map接口 </h1><br>
 
 
 

@@ -6,11 +6,12 @@ permalink: /tech/exer-dmsxl/
 ---
 <p style="font-size:20px;">代码随想录学习笔记</p>
 <p style="font-size:20px;">目录</p>
-<a href ="#e"> 二叉树 </a><br>
+<a href ="#1.1"> 二叉树 </a><br>
+<a href ="#0.1"> 补充1 </a><br>
 <a href ="#1"> 回溯算法 </a><br>
 <a href ="#2"> 贪心算法 </a><br>
 
-<h1 id="e"> 二叉树</h1>
+<h1 id="1.1"> 二叉树</h1>
 
 ## 1 二叉树理论基础
 ```
@@ -62,6 +63,15 @@ class Solution {
 
 前中后序不能简单套用（访问的顺序和元素处理顺序不一致）
 
+
+<h1 id="0.1"> 补充1</h1>
+<a href ="https://www.runoob.com/java/java-string.html" targrt="_blank">见教程</a><br>
+
+## Java String类 
+
+## Java StringBuffer 和 StringBuilder 类
+
+## Arrays 工具类
 
 
 <h1 id="1"> 回溯算法</h1>
