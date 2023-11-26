@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <!-- 在这里添加你的样式表链接或内联样式 -->
+</head>
+<body>
+  <header>
+    <!-- 在这里添加页面头部内容 -->
+  </header>
+
+  <main>
+    <article>
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </article>
+
+    {% if page.show_home_link == true %}
+      <a href="https://jarenwa.github.io">My Home Page</a>
+    {% endif %}
+  </main>
+
+  <footer>
+    <!-- 在这里添加页面底部内容 -->
+  </footer>
+</body>
+</html>
