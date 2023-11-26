@@ -17,7 +17,7 @@
 
 - <a href="https://inst.eecs.berkeley.edu/~cs61b/" target="_blank">CS 61B</a><br>
 - <a href="https://inst.eecs.berkeley.edu/~cs61b/sp21/" target="_blank">Spring 2021</a><br>
-- <a href="{% post_url tech/courses/cs61b/notes %}"> My Notes (Based on spring 2021)</a><br>
+- <a href="{% post_url tech/courses/cs61b/2023-11-26-notes %}"> My Notes (Based on spring 2021)</a><br>
 - My Labs (Based on spring 2021)<br>
 - Others：<br>
     - <a href="https://zhuanlan.zhihu.com/p/444814803" target="_blank">CS61B的入门必备的排坑手册
