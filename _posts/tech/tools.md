@@ -1,3 +1,9 @@
+Win 窗口切换快捷键最优解
+https://zhuanlan.zhihu.com/p/128744443
+
+打开 IDEA 软件，并点击顶部菜单栏的"File"（文件）选项。 2. 在下拉菜单中，选择"Settings"（设置）。 3. 在弹出的设置窗口中，选择"Plugins"（插件）选项。 4. 在插件列表中，点击" Mark e tplace "（插件市场）选项。
+
+
 WSL2的说明:2020年夏季更新的Windows包含一个名为WSL2的Linux内核。
 
 关于使用Git出现“git Failed to connect to 127.0.0.1 port xxxx: Connection refused”的问题解决方案
