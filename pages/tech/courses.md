@@ -4,13 +4,23 @@
 
 <!-- TOC -->
 
+- [Tools](#tools)
+    - [MIT 6.NULL: The Missing Semester of Your CS Education](#mit-6null-the-missing-semester-of-your-cs-education)
 - [Data Structures](#data-structures)
     - [UCB CS61B: Data Structures and Algorithms](#ucb-cs61b-data-structures-and-algorithms)
 - [Software Engineering](#software-engineering)
     - [MIT 6.031: Software Construction](#mit-6031-software-construction)
+- [Computer Network](#computer-network)
+    - [Stanford CS144: Computer Network](#stanford-cs144-computer-network)
 
 <!-- /TOC -->
 
+# Tools
+## MIT 6.NULL: The Missing Semester of Your CS Education
+- <a href="https://missing.csail.mit.edu/" target="_blank">MIT 6.NULL</a><br>
+- My Notes<br>
+- Other References：<br>
+    - <a href="https://segmentfault.com/a/1190000039107866" target="_blank">wine99's blog</a><br>
 
 # Data Structures
 ## UCB CS61B: Data Structures and Algorithms
@@ -19,7 +29,7 @@
 - <a href="https://inst.eecs.berkeley.edu/~cs61b/sp21/" target="_blank">Spring 2021</a><br>
 - <a href="{% post_url tech/courses/cs61b/2023-11-26-notes %}"> My Notes (Based on spring 2021)</a><br>
 - <a href="{% post_url tech/courses/cs61b/2023-11-26-labs %}"> Labs Challenges & Fixes (Based on spring 2021)</a><br>
-- Others：<br>
+- Other References：<br>
     - <a href="https://zhuanlan.zhihu.com/p/444814803" target="_blank">CS61B的入门必备的排坑手册(Sping 2021)</a><br>
     - <a href="https://blog.csdn.net/zhj1698/article/details/126344041" target="_blank">分享一个宝藏级 Java 插件——Java Visualizer</a><br>
 
@@ -29,6 +39,11 @@
 
 - <a href="https://web.mit.edu/6.031/www/sp21/" target="_blank">Spring 2021</a><br>
 - My Notes (Based on spring 2021)<br>
+
+# Computer Network
+## Stanford CS144: Computer Network
+- <a href="https://cs144.github.io/" target="_blank">Spring 2023</a><br>
+
 
 
 
