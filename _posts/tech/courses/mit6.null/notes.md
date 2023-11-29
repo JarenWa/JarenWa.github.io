@@ -17,3 +17,35 @@ Windows终端和Linux终端一些区别，包括以下几点：
 Windows终端的默认提示符为"C:\Users\用户名>"，其中"用户名"是您当前登录的Windows用户的用户名。
 
 # shell(使用 Bourne Again SHell)
+
+
+
+# VIM
+
+<a href="https://www.zhihu.com/column/c_1497149473017442304" target="_blank">vim使用技巧</a><br>
+
+<a href="https://zhuanlan.zhihu.com/p/430603620" target="_blank">vscode + vim 全键盘操作高效搭配方案</a><br>
+
+<a href="https://wangchujiang.com/reference/docs/vim.html" target="_blank">Vim 备忘清单</a><br>
+
+
+## 移动
+h/j/k/l
+
+到第一行：gg
+
+到最后一行：G
+
+## 复制粘贴
+复制y
+
+粘贴p
+
+
+ssdkgufhj
+
+
+snhjkdkgufhj
+snhjkdkgufhj
+dsahjkgvjbmcn 
+shldklfahgbnv
